@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title here -->
+    <title>welcome</title>
+
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    
+    <!-- style css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-[#F5F8FF]">
+    <!-- header area start -->
+    <header class="py-5">
+        <div class="container px-3">
+            <nav class="grid grid-cols-12 items-center">
+                <div class="sm:col-span-3 col-span-6"><a href="#"><img class="sm:w-[135px] w-[80px] block" src="./images/logo.png" alt=""></a></div>
+                <div class="sm:col-span-9 col-span-6 flex items-center justify-end gap-12">
+                    <ul class="sm:flex gap-12 hidden">
+                        <li><a href="#" class="text-[#000] text-[16px] font-[400] hover:text-black">Home</a></li>
+                        <li><a href="#" class="text-[#8987A1] text-[16px] font-[400] hover:text-black">Shop</a></li>
+                        <li><a href="#" class="text-[#8987A1] text-[16px] font-[400] hover:text-black">About us</a></li>
+                    </ul>
+                    <button class="flex gap-2.5 cursor-pointer hover:text-[#E95A08] text-[#000] text-[16px] font-[400]"><img src="./images/shopping-cart.svg" alt=""> Cart ($56)</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- header area end -->
+
+    <main>
+        <!-- hero area start -->
+        <section class="sm:pt-[180px] pt-5">
+            <div class="container sm:px-3 px-0">
+                <div class="grid grid-cols-12 items-end">
+                    <div class="md:col-span-6 col-span-12 md:order-1 order-2 px-3 sm:px-0">
+                        <h1 class="text-black sm:text-[65px] text-[35px] mt-3 sm:mt-0 font-[700] font-noto">ALWAYS <span class="text-[#E95A08]">FRESH FLOWERS</span></h1>
+                        <p class="text-black/50 sm:text-[22px] text-[14px] font-[400]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+                    </div>
+                    <div class="md:col-span-6 col-span-12 md:order-2 order-1">
+                        <img class="block w-full " src="./images/hero-flower.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- hero area end -->
+
+        <!-- our plants area start -->
+        <section class="mt-28">
+            <div class="container px-3">
+                <div>
+                    <h1 class="text-black sm:text-[65px] text-[35px] font-[700] font-noto text-center">Our <span class="text-[#E95A08]">Plants</span></h1>
+                    <p class="text-black/50 sm:text-[22px] text-[14px] font-[400]  text-center mt-4 mb-12 mx-auto w-full max-w-[885px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.</p>
+                </div>
+                <!-- product grid here -->
+                <div class="grid lg:grid-cols-4 grid-cols-2  sm:gap-x-5 gap-x-2 sm:gap-y-7 gap-y-4">
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                    <div>
+                        <img class="block w-full" src="./images/sample-flower-image.png" alt="">
+                        <h5 class="text-[#111111] text-[17px] sm:text-[22px] font-[500] text-center sm:mt-3 mt-2">Lily Blossom</h5>
+                        <h4 class="text-[#111111] text-[17px] sm:text-[22px] font-bold text-center sm:my-4 my-2">20 USD</h4>
+                        <button class="bg-[#E95A08] hover:bg-black transition-colors text-white w-full sm:h-[50px] text-4 h-[45px] cursor-pointer">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our plants area end -->
+
+        <!-- plants lover area start -->
+        
+        <!-- plants lover area end -->
+
+        <!-- letest deal area start -->
+       
+        <!-- letest deal area end -->
+
+        <!-- cta area start -->
+        
+        <!-- cta area end -->
+    </main>
+
+    <!-- footer area start -->
+    
+    <!-- footer area end -->
+
+</body>
+</html>
